@@ -1,3 +1,4 @@
+# questions that asks the users
 quiz = {
     "question1":{
         "question" :  "what is the capital of france",
@@ -34,8 +35,15 @@ for key , value in quiz.items():
         print("correct")
         score = score +1
         print("your score is " + str(score))
+        print("")
+        print("")
     else:
         print("wrong!")
         print(" the answer is : " + value['answer'])
         print("your score is " + str(score))
+        print("")
+        print("")
+        
+print("you got " + str(score) + " out of 6 questions correctly")
+print("your percentage is " + str(score/6 * 100) + "%")
         
