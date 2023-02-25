@@ -1,4 +1,3 @@
-# questions that asks the users
 quiz = {
     "question1":{
         "question" :  "what is the capital of france",
